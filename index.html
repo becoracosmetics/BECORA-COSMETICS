@@ -30,6 +30,7 @@
     background: var(--marfil);
     color: var(--carbon);
     overflow-x: hidden;
+    font-size: 18px;
   }
 
   /* ─── NAV ─── */
@@ -97,7 +98,7 @@
   }
   .hero-title em { font-style: italic; color: var(--terracota); }
   .hero-subtitle {
-    font-size: 0.9rem; line-height: 1.85; color: #5A4A3A;
+    font-size: 1.05rem; line-height: 1.85; color: #5A4A3A;
     max-width: 420px; margin-bottom: 3rem;
     font-weight: 300; letter-spacing: 0.03em;
   }
@@ -198,7 +199,7 @@
   }
   .section-title em { font-style: italic; color: var(--terracota); }
   .section-body {
-    font-size: 0.9rem; line-height: 1.9; color: #5A4A3A;
+    font-size: 1.05rem; line-height: 1.9; color: #5A4A3A;
     font-weight: 300; max-width: 520px;
   }
 
@@ -221,7 +222,7 @@
     font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase;
     color: var(--crema); margin-bottom: 0.4rem; font-weight: 400;
   }
-  .step-desc { font-size: 0.8rem; color: #7A6A5A; line-height: 1.7; font-weight: 300; }
+  .step-desc { font-size: 0.95rem; color: #7A6A5A; line-height: 1.7; font-weight: 300; }
 
   .ritual-visual { display: flex; align-items: center; justify-content: center; position: relative; }
   .roller-ring {
@@ -319,7 +320,7 @@
   .ingredient-icon { font-size: 2.5rem; margin-bottom: 1.5rem; display: block; }
   .ingredient-name { font-family: 'Cormorant Garamond', serif; font-size: 1.8rem; font-weight: 300; font-style: italic; color: var(--terracota-dark); margin-bottom: 0.5rem; }
   .ingredient-latin { font-size: 0.55rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--olivo); margin-bottom: 1.25rem; display: block; }
-  .ingredient-desc { font-size: 0.82rem; color: #6A5848; line-height: 1.8; font-weight: 300; }
+  .ingredient-desc { font-size: 0.95rem; color: #6A5848; line-height: 1.8; font-weight: 300; }
   .ingredient-benefit { margin-top: 1.25rem; padding-top: 1.25rem; border-top: 0.5px solid rgba(196,113,74,0.2); font-size: 0.6rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--terracota); }
 
   /* ─── MANIFESTO ─── */
@@ -352,7 +353,7 @@
   .founder-tag { font-size: 0.55rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--olivo); margin-bottom: 0.5rem; }
   .founder-name { font-family: 'Cormorant Garamond', serif; font-size: 2rem; font-weight: 300; color: var(--carbon); margin-bottom: 0.25rem; }
   .founder-role { font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--terracota); font-weight: 400; margin-bottom: 1.5rem; }
-  .founder-bio { font-size: 0.85rem; color: #6A5848; line-height: 1.9; font-weight: 300; }
+  .founder-bio { font-size: 1rem; color: #6A5848; line-height: 1.9; font-weight: 300; }
 
   /* ─── FINAL CTA ─── */
   .final-cta { background: var(--terracota); text-align: center; padding: 8rem 4rem; position: relative; overflow: hidden; }
@@ -462,7 +463,7 @@
       <img
         src="https://i.ibb.co/1fP3Nfb6/ORTIFIRM.png"
         alt="ORTIFIRM Gel Reafirmante con cabezal de 4 esferas"
-        style="width:280px; max-width:85%; object-fit:contain; filter:drop-shadow(6px 12px 32px rgba(0,0,0,0.18));"
+        style="width:440px; max-width:92%; object-fit:contain; filter:drop-shadow(6px 12px 40px rgba(0,0,0,0.22));"
       />
     </div>
     <div class="hero-badge">
@@ -707,9 +708,55 @@
   <h2 class="cta-title">Tu dedicación<br>empieza aquí.</h2>
   <p class="cta-sub">Cero perfección, total dedicación · Envíos a todo Ecuador</p>
   <div class="cta-buttons">
-    <a href="#" class="btn-light">Comprar Ortifirm</a>
+    <a href="#pago" class="btn-light">Adquirir Ortifirm</a>
     <a href="#app" class="btn-outline-light">Explorar rutinas guiadas</a>
   </div>
+</section>
+
+<!-- PAGO -->
+<section id="pago" style="background:var(--crema); padding:5rem 5rem; text-align:center;">
+  <p style="font-size:0.65rem; letter-spacing:0.4em; text-transform:uppercase; color:var(--terracota); margin-bottom:1.5rem;">Cómo adquirir ORTIFIRM</p>
+  <h2 style="font-family:'Cormorant Garamond',serif; font-size:clamp(2rem,3.5vw,3.5rem); font-weight:300; color:var(--carbon); margin-bottom:1rem; line-height:1.2;">
+    Proceso de compra<br><em style="font-style:italic; color:var(--terracota);">simple y seguro</em>
+  </h2>
+  <p style="font-size:1rem; color:#5A4A3A; max-width:560px; margin:0 auto 3rem; line-height:1.9; font-weight:300;">
+    Realiza tu pedido en 3 pasos. Una vez confirmado el pago, coordinamos el envío a cualquier parte de Ecuador.
+  </p>
+
+  <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1.5rem; max-width:900px; margin:0 auto 3rem;">
+    <!-- Paso 1 -->
+    <div style="background:white; padding:2.5rem 2rem; border:0.5px solid rgba(196,113,74,0.2); text-align:left;">
+      <p style="font-family:'Cormorant Garamond',serif; font-size:3rem; font-weight:300; color:rgba(196,113,74,0.3); line-height:1;">01</p>
+      <h3 style="font-size:0.9rem; letter-spacing:0.15em; text-transform:uppercase; color:var(--carbon); font-weight:500; margin:0.75rem 0 0.5rem;">Escríbenos</h3>
+      <p style="font-size:0.95rem; color:#6A5848; line-height:1.8; font-weight:300;">Contáctanos por Instagram o WhatsApp indicando tu pedido y ciudad de envío.</p>
+      <a href="https://www.instagram.com/becora.cosmetics?igsh=NG1zcHpudmhpeXZp" target="_blank"
+        style="display:inline-block; margin-top:1rem; font-size:0.65rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--terracota); text-decoration:none; border-bottom:0.5px solid var(--terracota); padding-bottom:2px;">
+        Ir a Instagram →
+      </a>
+    </div>
+    <!-- Paso 2 -->
+    <div style="background:var(--terracota); padding:2.5rem 2rem; text-align:left;">
+      <p style="font-family:'Cormorant Garamond',serif; font-size:3rem; font-weight:300; color:rgba(255,255,255,0.3); line-height:1;">02</p>
+      <h3 style="font-size:0.9rem; letter-spacing:0.15em; text-transform:uppercase; color:var(--crema); font-weight:500; margin:0.75rem 0 0.5rem;">Realiza la transferencia</h3>
+      <p style="font-size:0.95rem; color:rgba(255,255,255,0.85); line-height:1.8; font-weight:300; margin-bottom:1.25rem;">Transfiere al siguiente número de cuenta:</p>
+      <div style="background:rgba(255,255,255,0.15); padding:1.25rem; border-radius:4px;">
+        <p style="font-size:0.65rem; letter-spacing:0.25em; text-transform:uppercase; color:rgba(255,255,255,0.7); margin-bottom:0.4rem;">Banco Pichincha</p>
+        <p style="font-family:'Cormorant Garamond',serif; font-size:2rem; font-weight:400; color:white; letter-spacing:0.1em;">2213256428</p>
+        <p style="font-size:0.75rem; color:rgba(255,255,255,0.75); margin-top:0.4rem;">Cuenta de Ahorros</p>
+      </div>
+    </div>
+    <!-- Paso 3 -->
+    <div style="background:var(--olivo-dark); padding:2.5rem 2rem; text-align:left;">
+      <p style="font-family:'Cormorant Garamond',serif; font-size:3rem; font-weight:300; color:rgba(255,255,255,0.2); line-height:1;">03</p>
+      <h3 style="font-size:0.9rem; letter-spacing:0.15em; text-transform:uppercase; color:var(--crema); font-weight:500; margin:0.75rem 0 0.5rem;">Envía el comprobante</h3>
+      <p style="font-size:0.95rem; color:var(--olivo-light); line-height:1.8; font-weight:300;">Mándanos el comprobante de pago por Instagram. En menos de 24 horas coordinamos tu envío.</p>
+      <p style="font-size:0.75rem; color:rgba(181,190,138,0.7); margin-top:1rem; line-height:1.6;">✦ Envíos a todo Ecuador<br>✦ Empaque especial BECORA</p>
+    </div>
+  </div>
+
+  <p style="font-size:0.8rem; color:#8A7A6A; font-weight:300; font-style:italic;">
+    ¿Tienes dudas? Escríbenos directamente en Instagram y te respondemos a la brevedad.
+  </p>
 </section>
 
 <!-- FOOTER -->
@@ -717,12 +764,29 @@
   <div>
     <span class="footer-logo">BECORA</span>
     <p class="footer-tagline">"Cero perfección, total dedicación."</p>
+    <!-- Iconos redes sociales -->
+    <div style="display:flex; gap:1rem; margin-top:1.5rem;">
+      <a href="https://www.instagram.com/becora.cosmetics?igsh=NG1zcHpudmhpeXZp" target="_blank"
+        style="width:42px; height:42px; border-radius:50%; background:rgba(196,113,74,0.15); border:0.5px solid rgba(196,113,74,0.3); display:flex; align-items:center; justify-content:center; transition:background 0.3s; text-decoration:none;"
+        onmouseover="this.style.background='rgba(196,113,74,0.35)'" onmouseout="this.style.background='rgba(196,113,74,0.15)'">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C4714A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+        </svg>
+      </a>
+      <a href="https://www.tiktok.com/@becora.cosmetics" target="_blank"
+        style="width:42px; height:42px; border-radius:50%; background:rgba(196,113,74,0.15); border:0.5px solid rgba(196,113,74,0.3); display:flex; align-items:center; justify-content:center; transition:background 0.3s; text-decoration:none;"
+        onmouseover="this.style.background='rgba(196,113,74,0.35)'" onmouseout="this.style.background='rgba(196,113,74,0.15)'">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="#C4714A">
+          <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.34 6.34 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.75a4.85 4.85 0 0 1-1.01-.06z"/>
+        </svg>
+      </a>
+    </div>
   </div>
   <div class="footer-col">
     <h5>Producto</h5>
     <ul>
-      <li><a href="#">ORTIFIRM Gel</a></li>
-      <li><a href="#">Ingredientes</a></li>
+      <li><a href="#cta">ORTIFIRM Gel</a></li>
+      <li><a href="#ingredientes">Ingredientes</a></li>
       <li><a href="#ritual">El Smart-Ritual</a></li>
       <li><a href="#app">Web App Rutinas</a></li>
     </ul>
@@ -730,19 +794,17 @@
   <div class="footer-col">
     <h5>Marca</h5>
     <ul>
-      <li><a href="#">Nuestra historia</a></li>
-      <li><a href="#">Manifiesto</a></li>
       <li><a href="#nosotras">Las creadoras</a></li>
-      <li><a href="#">Prensa</a></li>
+      <li><a href="#pago">Cómo comprar</a></li>
+      <li><a href="https://www.instagram.com/becora.cosmetics?igsh=NG1zcHpudmhpeXZp" target="_blank">Prensa</a></li>
     </ul>
   </div>
   <div class="footer-col">
-    <h5>Contacto</h5>
+    <h5>Síguenos</h5>
     <ul>
-      <li><a href="mailto:hola@becoracosmetics.com">hola@becoracosmetics.com</a></li>
-      <li><a href="#">Instagram</a></li>
-      <li><a href="#">TikTok</a></li>
-      <li><a href="#">Envíos Ecuador</a></li>
+      <li><a href="https://www.instagram.com/becora.cosmetics?igsh=NG1zcHpudmhpeXZp" target="_blank">Instagram @becora.cosmetics</a></li>
+      <li><a href="https://www.tiktok.com/@becora.cosmetics" target="_blank">TikTok @becora.cosmetics</a></li>
+      <li><a href="#pago">Banco Pichincha · 2213256428</a></li>
     </ul>
   </div>
   <div class="footer-bottom">
