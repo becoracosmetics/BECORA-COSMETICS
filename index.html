@@ -305,6 +305,8 @@
   /* ─── INGREDIENTS ─── */
   .ingredients { background: var(--marfil); }
   .ingredients-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 2px; margin-top: 4rem; }
+  .ingredients-grid .ingredient-card:nth-child(4) { grid-column: 1 / 2; }
+  .ingredients-grid .ingredient-card:nth-child(5) { grid-column: 2 / 3; }
   .ingredient-card {
     padding: 3rem 2.5rem; background: var(--crema);
     position: relative; overflow: hidden;
@@ -491,7 +493,7 @@
     <span class="stat-label">Esferas de acero inoxidable</span>
   </div>
   <div class="stat-item">
-    <span class="stat-num">3</span>
+    <span class="stat-num">5</span>
     <span class="stat-label">Activos botánicos certificados</span>
   </div>
   <div class="stat-item">
@@ -643,18 +645,32 @@
       <p class="ingredient-benefit">Reafirmante · Circulatorio · Antioxidante</p>
     </div>
     <div class="ingredient-card" data-num="II">
-      <span class="ingredient-icon">🌼</span>
-      <span class="ingredient-latin">Matricaria chamomilla</span>
-      <h3 class="ingredient-name">Manzanilla</h3>
-      <p class="ingredient-desc">Un aroma suave y levemente dulce, como flores secas al sol. Su bisabolol calma la irritación cutánea, potencia la barrera hidrolipídica y amplifica el efecto antiinflamatorio del masaje con frío.</p>
-      <p class="ingredient-benefit">Calmante · Antiinflamatorio · Hidratante</p>
-    </div>
-    <div class="ingredient-card" data-num="III">
       <span class="ingredient-icon">🌱</span>
       <span class="ingredient-latin">Rosmarinus officinalis</span>
       <h3 class="ingredient-name">Romero</h3>
       <p class="ingredient-desc">Herbal, fresco, casi mentolado. El romero es el activador del ritual: estimula la circulación local, aporta un efecto tonificante inmediato y actúa como conservante natural de la fórmula.</p>
       <p class="ingredient-benefit">Tonificante · Circulatorio · Conservante natural</p>
+    </div>
+    <div class="ingredient-card" data-num="III">
+      <span class="ingredient-icon">🍃</span>
+      <span class="ingredient-latin">Centella asiatica</span>
+      <h3 class="ingredient-name">Centella Asiática</h3>
+      <p class="ingredient-desc">El ingrediente favorito de la cosmiatría moderna. La centella estimula la producción de colágeno, mejora la elasticidad cutánea y repara la barrera de la piel con una eficacia respaldada por décadas de investigación dermatológica.</p>
+      <p class="ingredient-benefit">Colágeno · Elasticidad · Reparador</p>
+    </div>
+    <div class="ingredient-card" data-num="IV">
+      <span class="ingredient-icon">🌵</span>
+      <span class="ingredient-latin">Aloe barbadensis miller</span>
+      <h3 class="ingredient-name">Aloe Vera</h3>
+      <p class="ingredient-desc">Fresco, suave y reconfortante al tacto. El aloe vera hidrata en profundidad, calma la piel sensible post-masaje y potencia la absorción de los demás activos. Su textura ligera hace que el gel deslice perfectamente sobre las esferas.</p>
+      <p class="ingredient-benefit">Hidratante · Calmante · Potenciador</p>
+    </div>
+    <div class="ingredient-card" data-num="V">
+      <span class="ingredient-icon">☕</span>
+      <span class="ingredient-latin">Coffea arabica extract</span>
+      <h3 class="ingredient-name">Cafeína</h3>
+      <p class="ingredient-desc">El secreto detrás del efecto inmediato. La cafeína activa la microcirculación, reduce la apariencia de celulitis y edemas, y potencia el efecto drenante de las 4 esferas de acero. Resultados visibles desde las primeras aplicaciones.</p>
+      <p class="ingredient-benefit">Drenante · Reductora · Activadora</p>
     </div>
   </div>
 </section>
@@ -728,9 +744,14 @@
     <div style="background:white; padding:2.5rem 2rem; border:0.5px solid rgba(196,113,74,0.2); text-align:left;">
       <p style="font-family:'Cormorant Garamond',serif; font-size:3rem; font-weight:300; color:rgba(196,113,74,0.3); line-height:1;">01</p>
       <h3 style="font-size:0.9rem; letter-spacing:0.15em; text-transform:uppercase; color:var(--carbon); font-weight:500; margin:0.75rem 0 0.5rem;">Escríbenos</h3>
-      <p style="font-size:0.95rem; color:#6A5848; line-height:1.8; font-weight:300;">Contáctanos por Instagram o WhatsApp indicando tu pedido y ciudad de envío.</p>
+      <p style="font-size:0.95rem; color:#6A5848; line-height:1.8; font-weight:300;">Contáctanos por WhatsApp o Instagram indicando tu pedido y ciudad de envío.</p>
+      <a href="https://wa.link/ikjlvl" target="_blank"
+        style="display:flex; align-items:center; gap:0.5rem; margin-top:1rem; font-size:0.85rem; font-weight:500; color:#25D366; text-decoration:none;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.532 5.862L.057 23.012a.75.75 0 0 0 .931.931l5.15-1.475A11.952 11.952 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.891 0-3.667-.513-5.187-1.407l-.372-.22-3.862 1.107 1.107-3.862-.22-.372A9.956 9.956 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+        WhatsApp · 0979382691
+      </a>
       <a href="https://www.instagram.com/becora.cosmetics?igsh=NG1zcHpudmhpeXZp" target="_blank"
-        style="display:inline-block; margin-top:1rem; font-size:0.65rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--terracota); text-decoration:none; border-bottom:0.5px solid var(--terracota); padding-bottom:2px;">
+        style="display:inline-block; margin-top:0.75rem; font-size:0.65rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--terracota); text-decoration:none; border-bottom:0.5px solid var(--terracota); padding-bottom:2px;">
         Ir a Instagram →
       </a>
     </div>
@@ -780,6 +801,13 @@
           <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.34 6.34 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.75a4.85 4.85 0 0 1-1.01-.06z"/>
         </svg>
       </a>
+      <a href="https://wa.link/ikjlvl" target="_blank"
+        style="width:42px; height:42px; border-radius:50%; background:rgba(37,211,102,0.12); border:0.5px solid rgba(37,211,102,0.35); display:flex; align-items:center; justify-content:center; transition:background 0.3s; text-decoration:none;"
+        onmouseover="this.style.background='rgba(37,211,102,0.28)'" onmouseout="this.style.background='rgba(37,211,102,0.12)'">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="#25D366">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.532 5.862L.057 23.012a.75.75 0 0 0 .931.931l5.15-1.475A11.952 11.952 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.891 0-3.667-.513-5.187-1.407l-.372-.22-3.862 1.107 1.107-3.862-.22-.372A9.956 9.956 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+        </svg>
+      </a>
     </div>
   </div>
   <div class="footer-col">
@@ -804,6 +832,7 @@
     <ul>
       <li><a href="https://www.instagram.com/becora.cosmetics?igsh=NG1zcHpudmhpeXZp" target="_blank">Instagram @becora.cosmetics</a></li>
       <li><a href="https://www.tiktok.com/@becora.cosmetics" target="_blank">TikTok @becora.cosmetics</a></li>
+      <li><a href="https://wa.link/ikjlvl" target="_blank">WhatsApp · 0979382691</a></li>
       <li><a href="#pago">Banco Pichincha · 2213256428</a></li>
     </ul>
   </div>
