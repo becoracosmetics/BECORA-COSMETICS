@@ -30,7 +30,7 @@
     background: var(--marfil);
     color: var(--carbon);
     overflow-x: hidden;
-    font-size: 18px;
+    font-size: 19px;
   }
 
   /* ─── NAV ─── */
@@ -50,7 +50,7 @@
   }
   .nav-links { display: flex; gap: 2.5rem; list-style: none; }
   .nav-links a {
-    font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase;
+    font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase;
     color: var(--olivo-dark); text-decoration: none;
     transition: color 0.3s;
   }
@@ -345,7 +345,7 @@
   .manifesto-divider { display: flex; align-items: center; justify-content: center; gap: 1.5rem; margin: 2.5rem auto; position: relative; }
   .manifesto-divider span { display: block; width: 40px; height: 0.5px; background: rgba(181,190,138,0.4); }
   .manifesto-divider em { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--terracota-light); font-style: italic; }
-  .manifesto-sub { font-size: 0.85rem; color: var(--olivo-light); font-weight: 300; line-height: 1.9; max-width: 580px; margin: 0 auto; position: relative; }
+  .manifesto-sub { font-size: 1.05rem; color: var(--olivo-light); font-weight: 300; line-height: 1.9; max-width: 580px; margin: 0 auto; position: relative; }
 
   /* ─── FOUNDERS ─── */
   .founders { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; padding: 0; }
@@ -432,6 +432,9 @@
     <li><a href="#ritual">El Ritual</a></li>
     <li><a href="#app">Web App</a></li>
     <li><a href="#ingredientes">Botánica</a></li>
+    <li><a href="#mision">Misión &amp; Visión</a></li>
+    <li><a href="#social">Compromiso</a></li>
+    <li><a href="#resultados">Resultados</a></li>
     <li><a href="#nosotras">Creadoras</a></li>
   </ul>
   <button class="nav-toggle" id="navToggle" aria-label="Menú">
@@ -696,6 +699,119 @@
   </p>
 </section>
 
+<!-- MISIÓN Y VISIÓN -->
+<section id="mision" style="background:var(--marfil); padding:7rem 5rem;">
+  <div data-reveal style="text-align:center; max-width:700px; margin:0 auto 5rem;">
+    <p style="font-size:0.7rem; letter-spacing:0.45em; text-transform:uppercase; color:var(--terracota); margin-bottom:1rem;">Quiénes somos</p>
+    <h2 style="font-family:'Cormorant Garamond',serif; font-size:clamp(2.5rem,4vw,4rem); font-weight:300; color:var(--carbon); line-height:1.15;">
+      Una marca con <em style="font-style:italic; color:var(--terracota);">propósito</em><br>y dirección clara.
+    </h2>
+  </div>
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:2px;" data-reveal>
+
+    <!-- MISIÓN -->
+    <div style="background:var(--carbon); padding:5rem 4rem; position:relative; overflow:hidden;">
+      <span style="position:absolute; top:-1rem; right:1rem; font-family:'Cormorant Garamond',serif; font-size:10rem; font-weight:300; color:rgba(196,113,74,0.07); line-height:1; pointer-events:none;">M</span>
+      <p style="font-size:0.65rem; letter-spacing:0.4em; text-transform:uppercase; color:var(--olivo-light); margin-bottom:1.5rem;">Nuestra Misión</p>
+      <h3 style="font-family:'Cormorant Garamond',serif; font-size:2.2rem; font-weight:300; color:var(--crema); line-height:1.2; margin-bottom:2rem;">
+        Llevar el cuidado <em style="font-style:italic; color:var(--terracota-light);">consciente</em> a cada mujer.
+      </h3>
+      <p style="font-size:1.05rem; color:#A89880; line-height:1.9; font-weight:300; margin-bottom:1.5rem;">
+        En BECORA creamos productos cosmiátricos de alta calidad que fusionan ciencia, botánica y tecnología, para que cada mujer tenga acceso a un ritual de cuidado real — sin promesas vacías, sin ingredientes innecesarios.
+      </p>
+      <p style="font-size:1.05rem; color:#A89880; line-height:1.9; font-weight:300;">
+        Nuestra misión es democratizar el cuidado profesional de la piel en Ecuador, con fórmulas honestas, herramientas efectivas y un enfoque en la dedicación cotidiana como motor de transformación.
+      </p>
+      <div style="margin-top:2.5rem; padding-top:2rem; border-top:0.5px solid rgba(196,113,74,0.2);">
+        <p style="font-size:0.7rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--terracota); font-style:italic;">"Cero perfección, total dedicación."</p>
+      </div>
+    </div>
+
+    <!-- VISIÓN -->
+    <div style="background:var(--terracota-pale); padding:5rem 4rem; position:relative; overflow:hidden;">
+      <span style="position:absolute; top:-1rem; right:1rem; font-family:'Cormorant Garamond',serif; font-size:10rem; font-weight:300; color:rgba(196,113,74,0.1); line-height:1; pointer-events:none;">V</span>
+      <p style="font-size:0.65rem; letter-spacing:0.4em; text-transform:uppercase; color:var(--olivo); margin-bottom:1.5rem;">Nuestra Visión</p>
+      <h3 style="font-family:'Cormorant Garamond',serif; font-size:2.2rem; font-weight:300; color:var(--carbon); line-height:1.2; margin-bottom:2rem;">
+        Ser la marca <em style="font-style:italic; color:var(--terracota);">referente</em> del beauty-tech latinoamericano.
+      </h3>
+      <p style="font-size:1.05rem; color:#6A5848; line-height:1.9; font-weight:300; margin-bottom:1.5rem;">
+        Vemos a BECORA COSMETICS como la primera marca ecuatoriana de beauty-tech que trasciende fronteras — posicionando la cosmiátrica latinoamericana al nivel de las grandes marcas internacionales, pero con raíces e ingredientes propios de nuestra tierra.
+      </p>
+      <p style="font-size:1.05rem; color:#6A5848; line-height:1.9; font-weight:300;">
+        En 5 años, queremos estar en los rituales de cuidado de miles de mujeres en toda Latinoamérica, demostrando que la dedicación y la ciencia propia pueden competir con cualquier marca del mundo.
+      </p>
+      <div style="margin-top:2.5rem; padding-top:2rem; border-top:0.5px solid rgba(196,113,74,0.25);">
+        <div style="display:flex; gap:2rem; flex-wrap:wrap;">
+          <div>
+            <p style="font-family:'Cormorant Garamond',serif; font-size:2.5rem; font-weight:300; color:var(--terracota); line-height:1;">2025</p>
+            <p style="font-size:0.65rem; letter-spacing:0.15em; text-transform:uppercase; color:var(--olivo); margin-top:0.25rem;">Año de fundación</p>
+          </div>
+          <div>
+            <p style="font-family:'Cormorant Garamond',serif; font-size:2.5rem; font-weight:300; color:var(--terracota); line-height:1;">EC</p>
+            <p style="font-size:0.65rem; letter-spacing:0.15em; text-transform:uppercase; color:var(--olivo); margin-top:0.25rem;">Hecho en Ecuador</p>
+          </div>
+          <div>
+            <p style="font-family:'Cormorant Garamond',serif; font-size:2.5rem; font-weight:300; color:var(--terracota); line-height:1;">∞</p>
+            <p style="font-size:0.65rem; letter-spacing:0.15em; text-transform:uppercase; color:var(--olivo); margin-top:0.25rem;">Mujeres por acompañar</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- COMPROMISO SOCIAL -->
+<section id="social" style="background:var(--olivo-dark); padding:7rem 5rem;">
+  <div style="max-width:1100px; margin:0 auto;">
+    <div data-reveal style="text-align:center; margin-bottom:5rem;">
+      <p style="font-size:0.7rem; letter-spacing:0.45em; text-transform:uppercase; color:var(--olivo-light); margin-bottom:1rem;">Compromiso Social</p>
+      <h2 style="font-family:'Cormorant Garamond',serif; font-size:clamp(2.5rem,4vw,4rem); font-weight:300; color:var(--crema); line-height:1.15;">
+        Nacimos en Ecuador.<br>
+        <em style="font-style:italic; color:var(--terracota-light);">Crecemos con Ecuador.</em>
+      </h2>
+    </div>
+
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:4rem; align-items:center;" data-reveal>
+      <div>
+        <p style="font-size:1.1rem; color:var(--olivo-light); line-height:2; font-weight:300; margin-bottom:2rem;">
+          Cada frasco de ORTIFIRM lleva dentro algo más que una fórmula. Lleva el trabajo de manos campesinas de la zona rural de <strong style="color:var(--crema); font-weight:400;">Azogues, Cañar</strong> — agricultores locales que cultivan con dedicación los ingredientes que dan vida a nuestra botánica.
+        </p>
+        <p style="font-size:1.1rem; color:var(--olivo-light); line-height:2; font-weight:300; margin-bottom:2rem;">
+          En BECORA creemos que una marca responsable no puede ignorar su cadena de origen. Por eso elegimos comprar local, pagar justo y trabajar de la mano con las comunidades que hacen posible nuestra fórmula.
+        </p>
+        <p style="font-size:1.1rem; color:var(--olivo-light); line-height:2; font-weight:300;">
+          Cuando compras ORTIFIRM, no solo inviertes en tu ritual — también apoyas a familias rurales ecuatorianas que viven de lo que siembran.
+        </p>
+        <div style="margin-top:2.5rem; padding:1.5rem 2rem; background:rgba(196,113,74,0.15); border-left:3px solid var(--terracota);">
+          <p style="font-size:1rem; color:var(--crema); line-height:1.8; font-style:italic; font-family:'Cormorant Garamond',serif; font-weight:300;">
+            "Producción local, impacto real. Cada planta que usamos tiene nombre, familia y dirección en el campo azogueño."
+          </p>
+          <p style="font-size:0.65rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--terracota-light); margin-top:0.75rem;">— BECORA COSMETICS</p>
+        </div>
+      </div>
+
+      <div style="display:flex; flex-direction:column; gap:1.5rem;">
+        <div style="background:rgba(255,255,255,0.05); border:0.5px solid rgba(181,190,138,0.2); padding:2rem;">
+          <p style="font-size:1.8rem; font-family:'Cormorant Garamond',serif; color:var(--terracota-light); font-weight:300; line-height:1;">🌿</p>
+          <h4 style="font-size:0.8rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--crema); font-weight:400; margin:0.75rem 0 0.5rem;">Ingredientes de origen local</h4>
+          <p style="font-size:0.95rem; color:var(--olivo-light); line-height:1.8; font-weight:300;">Trabajamos directamente con productores de la zona rural de Azogues que cultivan ortiga, romero y plantas medicinales de manera artesanal y sostenible.</p>
+        </div>
+        <div style="background:rgba(255,255,255,0.05); border:0.5px solid rgba(181,190,138,0.2); padding:2rem;">
+          <p style="font-size:1.8rem; font-family:'Cormorant Garamond',serif; color:var(--terracota-light); font-weight:300; line-height:1;">🤝</p>
+          <h4 style="font-size:0.8rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--crema); font-weight:400; margin:0.75rem 0 0.5rem;">Comercio justo y directo</h4>
+          <p style="font-size:0.95rem; color:var(--olivo-light); line-height:1.8; font-weight:300;">Eliminamos intermediarios para que el precio justo llegue directamente a quien trabaja la tierra. Sin explotación, sin cadenas opacas.</p>
+        </div>
+        <div style="background:rgba(255,255,255,0.05); border:0.5px solid rgba(181,190,138,0.2); padding:2rem;">
+          <p style="font-size:1.8rem; font-family:'Cormorant Garamond',serif; color:var(--terracota-light); font-weight:300; line-height:1;">🇪🇨</p>
+          <h4 style="font-size:0.8rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--crema); font-weight:400; margin:0.75rem 0 0.5rem;">Orgullo ecuatoriano</h4>
+          <p style="font-size:0.95rem; color:var(--olivo-light); line-height:1.8; font-weight:300;">BECORA es 100% ecuatoriana — desde la fórmula hasta el empaque. Apostamos por lo nuestro porque sabemos que lo nuestro es extraordinario.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- FOUNDERS -->
 <section class="founders" id="nosotras">
   <div class="founder-card" data-reveal>
@@ -716,6 +832,126 @@
     <p class="founder-role">Estrategia &amp; Tecnología</p>
     <p class="founder-bio">Detrás de cada decisión de BECORA —desde la paleta de colores hasta el flujo del QR— hay una mente estratégica obsesionada con la experiencia del usuario. Mirely construyó el ecosistema digital de la marca con una premisa clara: que la tecnología sirva al ritual, no al revés.<br><br>Su visión une el mundo del beauty-tech con la identidad latinoamericana sin complejos y sin filtros.</p>
   </div>
+</section>
+
+<!-- RESULTADOS REALES -->
+<section id="resultados" style="background:var(--crema); padding:7rem 5rem;">
+  <div data-reveal style="text-align:center; max-width:650px; margin:0 auto 5rem;">
+    <p style="font-size:0.7rem; letter-spacing:0.45em; text-transform:uppercase; color:var(--terracota); margin-bottom:1rem;">Resultados Reales</p>
+    <h2 style="font-family:'Cormorant Garamond',serif; font-size:clamp(2.5rem,4vw,4rem); font-weight:300; color:var(--carbon); line-height:1.15;">
+      Ellas ya <em style="font-style:italic; color:var(--terracota);">comenzaron</em><br>su ritual.
+    </h2>
+    <p style="font-size:1.05rem; color:#6A5848; line-height:1.9; font-weight:300; margin-top:1.5rem;">
+      Experiencias reales de mujeres que decidieron dedicarse tiempo. Sin filtros, sin edición.
+    </p>
+  </div>
+
+  <!-- Estrellas promedio -->
+  <div data-reveal style="text-align:center; margin-bottom:4rem;">
+    <p style="font-size:2.5rem; letter-spacing:0.1em; color:var(--terracota);">★★★★★</p>
+    <p style="font-family:'Cormorant Garamond',serif; font-size:1.8rem; font-weight:300; color:var(--carbon);">4.9 / 5</p>
+    <p style="font-size:0.7rem; letter-spacing:0.2em; text-transform:uppercase; color:#8A7A6A; margin-top:0.25rem;">Basado en primeras usuarias BECORA</p>
+  </div>
+
+  <!-- Grid de reseñas -->
+  <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:2px; max-width:1100px; margin:0 auto;" data-reveal>
+
+    <!-- Reseña 1 -->
+    <div style="background:var(--carbon); padding:3rem 2.5rem; position:relative;">
+      <p style="font-size:1.2rem; color:var(--terracota); margin-bottom:1.5rem; letter-spacing:0.05em;">★★★★★</p>
+      <p style="font-family:'Cormorant Garamond',serif; font-size:1.25rem; font-style:italic; color:var(--crema); line-height:1.7; margin-bottom:2rem; font-weight:300;">
+        "Llevaba meses buscando algo que realmente funcionara para mis piernas. Desde la primera semana de uso noté que el área se veía más firme. El frío de las esferas es una sensación increíble, sobre todo en las mañanas."
+      </p>
+      <div style="display:flex; align-items:center; gap:1rem; padding-top:1.5rem; border-top:0.5px solid rgba(196,113,74,0.2);">
+        <div style="width:44px; height:44px; border-radius:50%; background:var(--terracota); display:flex; align-items:center; justify-content:center; font-family:'Cormorant Garamond',serif; font-size:1.2rem; color:var(--crema); font-weight:400; flex-shrink:0;">V</div>
+        <div>
+          <p style="font-size:0.85rem; font-weight:500; color:var(--crema); letter-spacing:0.05em;">Valeria M.</p>
+          <p style="font-size:0.7rem; color:#7A6A5A; margin-top:0.1rem;">Quito · Usuaria desde el lanzamiento</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Reseña 2 -->
+    <div style="background:var(--terracota); padding:3rem 2.5rem; position:relative;">
+      <p style="font-size:1.2rem; color:rgba(255,255,255,0.8); margin-bottom:1.5rem; letter-spacing:0.05em;">★★★★★</p>
+      <p style="font-family:'Cormorant Garamond',serif; font-size:1.25rem; font-style:italic; color:var(--crema); line-height:1.7; margin-bottom:2rem; font-weight:300;">
+        "Lo que más me gustó es que no me vendieron magia. Me vendieron un ritual, y eso es exactamente lo que encontré. Los ingredientes se sienten naturales, el aroma es precioso y las esferas hacen un masaje de verdad."
+      </p>
+      <div style="display:flex; align-items:center; gap:1rem; padding-top:1.5rem; border-top:0.5px solid rgba(255,255,255,0.2);">
+        <div style="width:44px; height:44px; border-radius:50%; background:rgba(255,255,255,0.2); display:flex; align-items:center; justify-content:center; font-family:'Cormorant Garamond',serif; font-size:1.2rem; color:var(--crema); font-weight:400; flex-shrink:0;">S</div>
+        <div>
+          <p style="font-size:0.85rem; font-weight:500; color:var(--crema); letter-spacing:0.05em;">Sofía R.</p>
+          <p style="font-size:0.7rem; color:rgba(255,255,255,0.65); margin-top:0.1rem;">Guayaquil · Clienta frecuente</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Reseña 3 -->
+    <div style="background:var(--marfil); padding:3rem 2.5rem; border:0.5px solid var(--crema-dark); position:relative;">
+      <p style="font-size:1.2rem; color:var(--terracota); margin-bottom:1.5rem; letter-spacing:0.05em;">★★★★★</p>
+      <p style="font-family:'Cormorant Garamond',serif; font-size:1.25rem; font-style:italic; color:var(--carbon); line-height:1.7; margin-bottom:2rem; font-weight:300;">
+        "Soy cosmiatra y sé leer una fórmula. ORTIFIRM tiene ingredientes reales, bien dosificados. La centella asiática y la cafeína son un dúo imbatible para el drenaje. Recomiendo este producto a todas mis clientas."
+      </p>
+      <div style="display:flex; align-items:center; gap:1rem; padding-top:1.5rem; border-top:0.5px solid rgba(196,113,74,0.2);">
+        <div style="width:44px; height:44px; border-radius:50%; background:var(--olivo-dark); display:flex; align-items:center; justify-content:center; font-family:'Cormorant Garamond',serif; font-size:1.2rem; color:var(--crema); font-weight:400; flex-shrink:0;">P</div>
+        <div>
+          <p style="font-size:0.85rem; font-weight:500; color:var(--carbon); letter-spacing:0.05em;">Paola T.</p>
+          <p style="font-size:0.7rem; color:#8A7A6A; margin-top:0.1rem;">Cuenca · Cosmiatra profesional</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Reseña 4 -->
+    <div style="background:var(--terracota-pale); padding:3rem 2.5rem; border:0.5px solid var(--crema-dark); position:relative;">
+      <p style="font-size:1.2rem; color:var(--terracota); margin-bottom:1.5rem; letter-spacing:0.05em;">★★★★★</p>
+      <p style="font-family:'Cormorant Garamond',serif; font-size:1.25rem; font-style:italic; color:var(--carbon); line-height:1.7; margin-bottom:2rem; font-weight:300;">
+        "Empecé el ritual de noche y en tres semanas mi esposo me preguntó qué había cambiado. La piel del abdomen se ve completamente diferente. Ahora no me pierdo ni un día."
+      </p>
+      <div style="display:flex; align-items:center; gap:1rem; padding-top:1.5rem; border-top:0.5px solid rgba(196,113,74,0.2);">
+        <div style="width:44px; height:44px; border-radius:50%; background:var(--terracota); display:flex; align-items:center; justify-content:center; font-family:'Cormorant Garamond',serif; font-size:1.2rem; color:var(--crema); font-weight:400; flex-shrink:0;">D</div>
+        <div>
+          <p style="font-size:0.85rem; font-weight:500; color:var(--carbon); letter-spacing:0.05em;">Daniela F.</p>
+          <p style="font-size:0.7rem; color:#8A7A6A; margin-top:0.1rem;">Ambato · 3 semanas de uso</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Reseña 5 -->
+    <div style="background:var(--olivo-dark); padding:3rem 2.5rem; position:relative;">
+      <p style="font-size:1.2rem; color:var(--olivo-light); margin-bottom:1.5rem; letter-spacing:0.05em;">★★★★★</p>
+      <p style="font-family:'Cormorant Garamond',serif; font-size:1.25rem; font-style:italic; color:var(--crema); line-height:1.7; margin-bottom:2rem; font-weight:300;">
+        "El olor a ortiga y romero es terapéutico. Me hace sentir que me estoy cuidando de verdad, no solo aplicando una crema. El masaje con las esferas frías después del gym es lo mejor del día."
+      </p>
+      <div style="display:flex; align-items:center; gap:1rem; padding-top:1.5rem; border-top:0.5px solid rgba(181,190,138,0.2);">
+        <div style="width:44px; height:44px; border-radius:50%; background:var(--olivo); display:flex; align-items:center; justify-content:center; font-family:'Cormorant Garamond',serif; font-size:1.2rem; color:var(--crema); font-weight:400; flex-shrink:0;">A</div>
+        <div>
+          <p style="font-size:0.85rem; font-weight:500; color:var(--crema); letter-spacing:0.05em;">Andrea L.</p>
+          <p style="font-size:0.7rem; color:var(--olivo-light); margin-top:0.1rem;">Loja · Usuaria activa</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Reseña 6 -->
+    <div style="background:var(--carbon); padding:3rem 2.5rem; position:relative;">
+      <p style="font-size:1.2rem; color:var(--terracota); margin-bottom:1.5rem; letter-spacing:0.05em;">★★★★☆</p>
+      <p style="font-family:'Cormorant Garamond',serif; font-size:1.25rem; font-style:italic; color:var(--crema); line-height:1.7; margin-bottom:2rem; font-weight:300;">
+        "Al principio dudé porque es una marca nueva, pero decidí confiar. Llevo un mes y la diferencia en el drenaje de mis piernas es real. El QR con los videos de rutina es un plus que ninguna otra marca ofrece."
+      </p>
+      <div style="display:flex; align-items:center; gap:1rem; padding-top:1.5rem; border-top:0.5px solid rgba(196,113,74,0.2);">
+        <div style="width:44px; height:44px; border-radius:50%; background:var(--terracota); display:flex; align-items:center; justify-content:center; font-family:'Cormorant Garamond',serif; font-size:1.2rem; color:var(--crema); font-weight:400; flex-shrink:0;">C</div>
+        <div>
+          <p style="font-size:0.85rem; font-weight:500; color:var(--crema); letter-spacing:0.05em;">Carolina B.</p>
+          <p style="font-size:0.7rem; color:#7A6A5A; margin-top:0.1rem;">Cuenca · 1 mes de uso</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Disclaimer honesto -->
+  <p data-reveal style="text-align:center; margin-top:3rem; font-size:0.8rem; color:#9A8A7A; font-style:italic; max-width:600px; margin-left:auto; margin-right:auto; line-height:1.8;">
+    * Los resultados varían según cada persona, frecuencia de uso y constancia en el ritual. Estas son experiencias individuales de nuestras primeras usuarias.
+  </p>
 </section>
 
 <!-- FINAL CTA -->
